@@ -6,7 +6,7 @@ buzzer est un appareil fait à partir d'un arduino nano pour contrôler un buzze
 # Utilisation
 ## Clavier Midi
 * Brancher votre **midi keyboard**.
-* Aller sur [TODO]
+* Aller sur http://madnerd.org/interface/midi
 
 ## Logiciel Midi
 Vous pouvez composer des musiques qui seront jouer par le buzzer.   
