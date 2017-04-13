@@ -6,7 +6,7 @@ buzzer is an device based on an Arduino nano to control a buzzer using [https://
 # Usage
 ## Midi Keyboard
 * Plug your **midi keyboard**.
-* Go to [TODO]
+* Go to http://madnerd.org/interface/midi
 
 ## Midi Software
 You can compose music that will be played by the buzzer.   
