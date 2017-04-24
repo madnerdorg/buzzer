@@ -1,33 +1,32 @@
-[Version française / French version](https://github.com/madnerdorg/buzzer/blob/master/readme.fr.md)
+[Version française / French version](https://github.com/madnerdorg/buzzer/blob/master/readme.fr.md)  
 
-buzzer is an device based on an Arduino nano to control a buzzer using [https://github.com/madnerdorg/libreconnect](libreconnect)   
-**Warning: This application should be considered alpha, and could not works correctly.**      
+Buzzer is a device based on an Arduino nano to control a buzzer using [https://github.com/madnerdorg/libreconnect](libreconnect)   
+**Warning: This application should be considered alpha, and could not work correctly.**      
+
 ![Midi Buzzer](https://github.com/madnerdorg/buzzer/raw/master/doc/thumbnail_buzzer.png)  
-# Usage
-## Midi Keyboard
-* Plug your **midi keyboard**.
-* Go to http://madnerd.org/interface/midi
 
-## Midi Software
-You can compose music that will be played by the buzzer.   
-### LoopMidi
+# Usage 
+## Midi Keyboard
+
+* Plug your **MIDI keyboard**.
+* Go to http://madnerd.org/interface/midi ## Midi Software
+You can compose music that will be played by the buzzer.    
+
+### LoopMidi 
 ![LoopMidi Add Midi Port](https://github.com/madnerdorg/buzzer/raw/master/doc/loopMidi.png)     
 We are going to use loopMidi to generate virtual midi port on Windows.
-* Download http://www.tobias-erichsen.de/software/loopmidi.html   
+* Download : [loopMidi](http://www.tobias-erichsen.de/software/loopmidi.html)
 * Click on **+** to create a virtual midi port
 
 ### LMMS
-Examples are available in **lmms/**
-
+Examples are available in **lmms/** 
 ![buzzer on LMMS](https://github.com/madnerdorg/buzzer/raw/master/doc/buzzer_lmms.png)
 * Download **LMMS** : https://lmms.io/download/#windows
 * On **TripleOscillator** put the volume to 0
 * Click on the gear next to **TripleOscillator**
-* Click on Midi and choose your **virtual midi port** (**Loopmidi by default**)
-
-## Commands
+* Click on Midi and choose your **virtual midi port** (**Loopmidi by default**) ## Commands
 * /info --------> Display name:port    
-* X -------> Where X is the frequency   
+* X -------> Where X is the frequency in hz
 * OFF -------> Stop sound    
 
 # Components
@@ -38,8 +37,8 @@ Examples are available in **lmms/**
 * Total : 7.98€ (2.43€)   
 
 # Wiring
-Don't forget to isolate the circuit from the arduino  
-## Buzzer only
+Don't forget to isolate the circuit from the arduino   
+## Buzzer only 
 ![UBuzzer Wiring](https://github.com/madnerdorg/buzzer/raw/master/doc/buzzer_wiring.png)   
 * Pin 9 : RESISTOR (100Ohm) --- Buzzer +   
 * Pin 10 : Buzzer -    
@@ -50,17 +49,18 @@ You can add a led (**before the resistor**)
 * Pin 10 : Led - / Buzzer -    
 
 # 3D Printing
-This model is an **all purpose case** for arduino nano projects    
+This model is a **all purpose case** for arduino nano projects    
 Models by Olivier Sarrailh : https://github.com/madnerdorg/buzzer/tree/master/3D    
 **You won't be able to properly close the case as the buzzer takes too much place, but you should still be able to close it**
 
-# Licenses
+# Licences
+
 # Buzzer.ino
 * Author: Rémi Sarrailh (madnerd.org)   
-* License: MIT
+* Licence: MIT
 
 # ToneAC
 * Author: Tim Eckel
-* License : GNU GPL v3
+* Licence : GNU GPL v3
 * Link: https://bitbucket.org/teckel12/arduino-toneac/wiki/Home
 * Donate : [PayPal](https://bitbucket.org/teckel12/arduino-toneac/wiki/Home#!show-your-appreciation)
