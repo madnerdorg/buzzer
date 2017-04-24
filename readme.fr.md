@@ -1,15 +1,15 @@
 [English Version](https://github.com/madnerdorg/buzzer/)
 
-buzzer est un appareil fait à partir d'un arduino nano pour contrôler un buzzer à l'aide de [https://github.com/madnerdorg/libreconnect](libreconnect)   
+buzzer est un appareil fait à partir d'un arduino nano pour contrôler un buzzer à l'aide de [libreconnect](https://github.com/madnerdorg/libreconnect)     
 **Attention: Cette application est en alpha, et pourrait ne pas fonctionner correctement**      
 ![Midi Buzzer](https://github.com/madnerdorg/buzzer/raw/master/doc/thumbnail_buzzer.png)  
 # Utilisation
-## Clavier Midi
-* Brancher votre **midi keyboard**.
+## Clavier MIDI
+* Brancher votre **clavier MIDI**.
 * Aller sur http://madnerd.org/interface/midi
 
 ## Logiciel Midi
-Vous pouvez composer des musiques qui seront jouer par le buzzer.   
+Vous pouvez aussi composer des musiques qui seront jouées par le buzzer.   
 ### LoopMidi
 ![LoopMidi Add Midi Port](https://github.com/madnerdorg/buzzer/raw/master/doc/loopMidi.png)     
 Nous allons utiliser loopMidi pour générer des ports midi virtuels sur Windows.
@@ -23,10 +23,10 @@ Des exemples sont disponibles dans **lmms/**
 * Télécharger **LMMS** : https://lmms.io/download/#windows
 * Sur **TripleOscillator** mettez le volume à 0
 * Cliquer sur la roue près de **TripleOscillator**
-* Clicquer sur Midi et choissisez votre **port midi virtuel** (**Par défaut: Loopmidi**)
+* Clicquer sur Midi et choisissez votre **port midi virtuel** (**par défaut: Loopmidi**)
 
 ## Commandes
-* /info --------> Affiche le nom:port    
+* /info --------> affiche le nom:port    
 * X -------> Où x est la fréquence en HZ.
 * OFF -------> Arrête le son    
 
@@ -41,18 +41,18 @@ Des exemples sont disponibles dans **lmms/**
 N'oubliez pas d'isoler le circuit de l'Arduino  
 ## Buzzer seul
 ![UBuzzer Wiring](https://github.com/madnerdorg/buzzer/raw/master/doc/buzzer_wiring.png)   
-* Pin 9 : RESISTANCE (100Ohm) --- Buzzer +   
+* Pin 9 : RÉSISTANCE (100Ohm) --- Buzzer +   
 * Pin 10 : Buzzer -    
 
 ## Buzzer/Led
-Vous pouvez ajouter une led (**avant la résistance**)
+Vous pouvez ajouter une LED (**avant la résistance**)
 * Pin 9 : RESISTANCE (100Ohm) --- Led + / Buzzer +   
-* Pin 10 : Led - / Buzzer -    
+* Pin 10 : LED - / Buzzer -    
 
 # Impression 3D
 Ce modèle est un **boitier réutilisable** pour des projets avec un arduino nano    
-Modèles fait par Olivier Sarrailh : https://github.com/madnerdorg/buzzer/tree/master/3D    
-**Le boitier est légerement trop petit pour être correctement fermé**
+Modèles faits par Olivier Sarrailh : https://github.com/madnerdorg/buzzer/tree/master/3D    
+**Le boitier est légèrement trop petit pour être correctement fermé**
 
 # Licences
 # Buzzer.ino
@@ -64,3 +64,4 @@ Modèles fait par Olivier Sarrailh : https://github.com/madnerdorg/buzzer/tree/m
 * Licence : GNU GPL v3
 * Lien: https://bitbucket.org/teckel12/arduino-toneac/wiki/Home
 * Donation : [PayPal](https://bitbucket.org/teckel12/arduino-toneac/wiki/Home#!show-your-appreciation)
+
