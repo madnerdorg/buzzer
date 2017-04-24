@@ -20,6 +20,7 @@ We are going to use loopMidi to generate virtual midi port on Windows.
 
 ### LMMS
 Examples are available in **lmms/** 
+
 ![buzzer on LMMS](https://github.com/madnerdorg/buzzer/raw/master/doc/buzzer_lmms.png)
 * Download **LMMS** : https://lmms.io/download/#windows
 * On **TripleOscillator** put the volume to 0
