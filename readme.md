@@ -1,9 +1,12 @@
 [Version française / French version](https://github.com/madnerdorg/buzzer/blob/master/readme.fr.md)  
 
-Buzzer is a device based on an Arduino nano to control a buzzer using [https://github.com/madnerdorg/libreconnect](libreconnect)   
-**Warning: This application should be considered alpha, and could not work correctly.**      
+Buzzer 
+------
 
-![Midi Buzzer](https://github.com/madnerdorg/buzzer/raw/master/doc/thumbnail_buzzer.png)  
+![Midi Buzzer](https://github.com/madnerdorg/buzzer/raw/master/doc/thumbnail_buzzer.jpg)  
+Play music / Build an alarm using a buzzer:
+
+Buzzer is a device based on an Arduino nano to control a buzzer using [https://github.com/madnerdorg/libreconnect](libreconnect)   
 
 # Usage 
 ## Midi Keyboard
