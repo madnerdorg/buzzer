@@ -2,7 +2,8 @@
 
 Buzzer 
 ------
-
+* [Download](https://github.com/madnerdorg/buzzer/archive/master.zip)     
+* [Test](http://madnerd.org/interface/midi)    
 ![Midi Buzzer](https://github.com/madnerdorg/buzzer/raw/master/doc/thumbnail_buzzer.jpg)  
 Play music / Build an alarm using a buzzer:
 
@@ -33,7 +34,7 @@ Examples are available in **lmms/**
 * X -------> Where X is the frequency in hz
 * OFF -------> Stop sound    
 
-# Components
+  # Components
 * Arduino nano CH340G: 2€    
 * 10 Buzzer : 1.80€  (1 Buzzer:0.18€)  
 * Resistor pack 400pcs (3€) (1 resistor: 0.0071€) 
@@ -50,7 +51,7 @@ Don't forget to isolate the circuit from the arduino
 ## Buzzer/Led
 You can add a led (**before the resistor**)
 * Pin 9 : RESISTOR (100Ohm) --- Led + / Buzzer +   
-* Pin 10 : Led - / Buzzer -    
+* Pin 10 : Led - / Buzzer -  
 
 # 3D Printing
 This model is a **all purpose case** for arduino nano projects    
