@@ -44,26 +44,26 @@ Des exemples sont disponibles dans **lmms/**
 
 # Construire buzzer
 
-# Composants
+## Composants
 * Arduino nano CH340G: 2€    
 * 10 Buzzer : 1.80€  (1 Buzzer:0.18€)  
 * Resistor pack 400pcs (3€) (1 resistor: 0.0071€) 
 * 5 pcs stripboard (1.18€) (1 stripboard : 0.24€ )  
 * Total : 7.98€ (2.43€)   
 
-# Branchement
+## Branchement
 N'oubliez pas d'isoler le circuit de l'Arduino  
-## Buzzer seul
+### Buzzer seul
 ![UBuzzer Wiring](doc/buzzer_wiring.png)   
 * Pin 9 : RÉSISTANCE (100Ω) --- Buzzer +   
 * Pin 10 : Buzzer -    
 
-## Buzzer/Led
+### Buzzer/Led
 Vous pouvez ajouter une LED (**avant la résistance**)
 * Pin 9 : RESISTANCE (100Ω) --- Led + / Buzzer +   
 * Pin 10 : LED - / Buzzer -    
 
-# Impression 3D
+## Impression 3D
 Ce modèle est un **boitier réutilisable** pour des projets avec un arduino nano    
 Modèles fait par Olivier Sarrailh : [https://github.com/madnerdorg/buzzer/tree/master/3D]()
 
