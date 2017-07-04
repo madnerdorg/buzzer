@@ -1,19 +1,31 @@
-[English Version](https://github.com/madnerdorg/buzzer/)
+[English](https://github.com/madnerdorg/buzzer/)
 
-buzzer est un appareil fait à partir d'un arduino nano pour contrôler un buzzer à l'aide de [libreconnect](https://github.com/madnerdorg/libreconnect)     
-**Attention: Cette application est en alpha, et pourrait ne pas fonctionner correctement**      
-![Midi Buzzer](https://github.com/madnerdorg/buzzer/raw/master/doc/thumbnail_buzzer.png)  
-# Utilisation
+[![Libre Connect](https://madnerdorg.github.io/libreconnect/doc/img/libreconnect_devices_banner.png)](https://madnerdorg.github.io/libreconnect/doc/en/devices)   
+[Télécharger Buzzer](https://github.com/madnerdorg/buzzer/archive/master.zip) / [Application](http://madnerd.org/interface/midi)     /   [LibreConnect](https://madnerdorg.github.io/libreconnect/) / [Source](https://github.com/madnerdorg/buzzer) 
+
+![Midi Buzzer](doc/buzzer_photo.jpg)  
+Jouer de la musique / créer une alarme avec un buzzer.
+
+- [Applications](#applications)
+- [Commandes](#commandes)
+- [Construire buzzer](#construire-buzzer)
+- [Impression 3D](#impression-3d)
+
+# Applications
+
 ## Clavier MIDI
+![Midi Buzzer](doc/thumbnail_buzzer.png)  
 * Brancher votre **clavier MIDI**.
-* Aller sur http://madnerd.org/interface/midi
+* Aller sur [http://madnerd.org/interface/midi]()
 
 ## Logiciel Midi
+![buzzer on LMMS](doc/buzzer_lmms.png)
 Vous pouvez aussi composer des musiques qui seront jouées par le buzzer.   
+
 ### LoopMidi
-![LoopMidi Add Midi Port](https://github.com/madnerdorg/buzzer/raw/master/doc/loopMidi.png)     
+![LoopMidi Add Midi Port](doc/loopMidi.png)     
 Nous allons utiliser loopMidi pour générer des ports midi virtuels sur Windows.
-* Télécharger: http://www.tobias-erichsen.de/software/loopmidi.html   
+* Télécharger: [loopmidi](http://www.tobias-erichsen.de/software/loopmidi.html)   
 * Cliquez sur **+** pour créer un port midi virtuel
 
 ### LMMS
@@ -23,12 +35,14 @@ Des exemples sont disponibles dans **lmms/**
 * Télécharger **LMMS** : https://lmms.io/download/#windows
 * Sur **TripleOscillator** mettez le volume à 0
 * Cliquer sur la roue près de **TripleOscillator**
-* Clicquer sur Midi et choisissez votre **port midi virtuel** (**par défaut: Loopmidi**)
+* Cliquer sur Midi et choisissez votre **port midi virtuel** (**par défaut: Loopmidi**)
 
-## Commandes
+# Commandes
 * /info --------> affiche le nom:port    
 * X -------> Où x est la fréquence en HZ.
 * OFF -------> Arrête le son    
+
+# Construire buzzer
 
 # Composants
 * Arduino nano CH340G: 2€    
@@ -40,19 +54,20 @@ Des exemples sont disponibles dans **lmms/**
 # Branchement
 N'oubliez pas d'isoler le circuit de l'Arduino  
 ## Buzzer seul
-![UBuzzer Wiring](https://github.com/madnerdorg/buzzer/raw/master/doc/buzzer_wiring.png)   
-* Pin 9 : RÉSISTANCE (100Ohm) --- Buzzer +   
+![UBuzzer Wiring](doc/buzzer_wiring.png)   
+* Pin 9 : RÉSISTANCE (100Ω) --- Buzzer +   
 * Pin 10 : Buzzer -    
 
 ## Buzzer/Led
 Vous pouvez ajouter une LED (**avant la résistance**)
-* Pin 9 : RESISTANCE (100Ohm) --- Led + / Buzzer +   
+* Pin 9 : RESISTANCE (100Ω) --- Led + / Buzzer +   
 * Pin 10 : LED - / Buzzer -    
 
 # Impression 3D
 Ce modèle est un **boitier réutilisable** pour des projets avec un arduino nano    
-Modèles faits par Olivier Sarrailh : https://github.com/madnerdorg/buzzer/tree/master/3D    
-**Le boitier est légèrement trop petit pour être correctement fermé**
+Modèles fait par Olivier Sarrailh : [https://github.com/madnerdorg/buzzer/tree/master/3D]()
+
+> Le boitier peut être légèrement trop petit pour être correctement fermé
 
 # Licences
 # Buzzer.ino
