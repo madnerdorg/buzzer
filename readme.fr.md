@@ -14,7 +14,7 @@ Jouer de la musique / créer une alarme avec un buzzer.
 # Applications
 
 ## Clavier MIDI
-![Midi Buzzer](doc/thumbnail_buzzer.png)  
+![Midi Buzzer](doc/buzzer_photo2.jpg)  
 * Brancher votre **clavier MIDI**.
 * Aller sur [http://madnerd.org/interface/midi]()
 
