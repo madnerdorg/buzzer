@@ -1,4 +1,4 @@
-[English](https://github.com/madnerdorg/buzzer/)
+[English](https://madnerdorg.github.io/buzzer/)
 
 [![Libre Connect](https://madnerdorg.github.io/libreconnect/doc/img/libreconnect_devices_banner.png)](https://madnerdorg.github.io/libreconnect/doc/en/devices)   
 [Télécharger Buzzer](https://github.com/madnerdorg/buzzer/archive/master.zip) / [Application](http://madnerd.org/interface/midi)     /   [LibreConnect](https://madnerdorg.github.io/libreconnect/) / [Source](https://github.com/madnerdorg/buzzer) 
